@@ -1,0 +1,35 @@
+{
+    "name": "wordpress/wordpress",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Wordpress\\Wordpress\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yournamem",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+        "johnpbloch/wordpress": "^5.9",
+        "wpackagist-plugin/akismet":"dev-trunk",
+        "wpackagist-plugin/wordpress-seo":">=7.0.2",
+        "wpackagist-theme/hueman":"*"
+    }, 
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org",
+            "only": [
+                "wpackagist-plugin/*",
+                "wpackagist-theme/*"
+            ],
+            "extra": {  "wp-content/mu-plugins/{$name}/": [
+                "wpackagist-plugin/akismet"
+            ]
+        }
+        }
+    ]
+}
