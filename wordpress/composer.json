@@ -1,42 +1,32 @@
 {
-    "name": "wordpress/wordpress",
-    "type": "project",
-    "autoload": {
-        "psr-4": {
-            "Wordpress\\Wordpress\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "yournamem",
-            "email": "email@example.com"
-        }
-    ],
-    "require": {
-        "johnpbloch/wordpress": "^5.9",
-        "wpackagist-plugin/akismet":"dev-trunk",
-        "wpackagist-plugin/wordpress-seo": "^18.1",
-        "wpackagist-theme/astra": "^3.7"
-    },
-    "repositories":[
-        {
-            "type":"composer",
-            "url":"https://wpackagist.org",
-            "only": [
-                "wpackagist-plugin/*",
-                "wpackagist-theme/*"
-            ]
-        }
-    ],
-    "extra": {
-        "wp-content/mu-plugins/{$name}/": [
-            "wpackagist-plugin/akismet"
-        ],
-        "wordpress/wp-content/plugins/{$name}/": [
-            "type:wordpress-plugin"
-        ],
-        "wordpress/wp-content/themes/{$name}/": [
-            "type:wordpress-theme"
-        ]
+  "name": "johnpbloch/wordpress-core",
+  "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
+  "keywords": [
+    "wordpress",
+    "blog",
+    "cms"
+  ],
+  "type": "wordpress-core",
+  "homepage": "https://wordpress.org/",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "WordPress Community",
+      "homepage": "https://wordpress.org/about/"
     }
+  ],
+  "support": {
+    "issues": "https://core.trac.wordpress.org/",
+    "forum": "https://wordpress.org/support/",
+    "wiki": "https://codex.wordpress.org/",
+    "irc": "irc://irc.freenode.net/wordpress",
+    "source": "https://core.trac.wordpress.org/browser"
+  },
+  "require": {
+    "php": ">=5.6.20",
+    "ext-json": "*"
+  },
+  "provide": {
+    "wordpress/core-implementation": "5.9.0"
+  }
 }
