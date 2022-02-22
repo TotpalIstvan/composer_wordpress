@@ -23,13 +23,13 @@
 define( 'DB_NAME', 'wordpress' );
 
 /** Database username */
-define( 'DB_USER', 'wordpress_user' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
 define( 'DB_PASSWORD', '' );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', '127.0.0.1' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'gO-(69DaR2~5,^K{Ds,)8LP:yc~x dH|y^C!Qslp$m90xw!gLWz:Yd.1>2XQm>.4' );
-define( 'SECURE_AUTH_KEY',  '{3!hvo1,`m3Z&%.E5t<,j@U@Uk3!5&ZO/PfPJQb@N9_Dc}S&BLt-[.>~wu-&c}U.' );
-define( 'LOGGED_IN_KEY',    ',rc*eejQ+4e-MeF2sLf2OO]nuuV_tuFh=XAB_Yz-t]#hPN>D5^0P*~5vM:Kz5h]3' );
-define( 'NONCE_KEY',        '#G<:gDp+BM,NxJH9DQ9I_ )5XqA0]=v@GZQ`JCyJp{[|X3hHN:qXM8yHgi$2=F]T' );
-define( 'AUTH_SALT',        'rYx2R+hn!cZM?e/g{1IUf{Mvwi!ZxwQ]l>R`nR}](T%={4zefLf]KkTg.vlu?T!9' );
-define( 'SECURE_AUTH_SALT', 'p;fgDDFXN.[x_!@rN#v,Fjd:ey[rnyx>(JHd~aI9d}lvlc`B+ek@SLv/e3#?p?B/' );
-define( 'LOGGED_IN_SALT',   'bY9_|KxSo*It67[ZOWO)D`{gLwA(t3DCEDFn9C/FV6 {7=ZdSe|MRh+3BSm=Zsb5' );
-define( 'NONCE_SALT',       '-x6;H&>uj)rP]*;wqw$^dTxQ*:EtkXLV]n8FoE6y`G]3k9OBk{O4X$hDuCZHhOUx' );
+define( 'AUTH_KEY',         '}&#H6m*{h$zXK*wweCs^YtmI.W7*itL4[-P91]A1tJz`vz^sj-CCRXD5+#^l*+_)' );
+define( 'SECURE_AUTH_KEY',  'bK/l.Zhn=^<tA!eY7;CLpCh~e`6eg/MBZz84fJW:DqVhZvkVy9BIb_a1S^=L%O8c' );
+define( 'LOGGED_IN_KEY',    'wAdD&lyl%=&dWY]sP`IHE>~PoIR=LV`i/YzsRqu{Zr7]4)0dQ#vs3Lf&2,LUgq~[' );
+define( 'NONCE_KEY',        '-~-Xv}l;;DhS~5]suVoK1TH,rV3^L{(I^HL^}vfF1L1`U[E7PuHBhVz0#)~pugCg' );
+define( 'AUTH_SALT',        'SeDSFJN6tWjU@YP8}]n,aK.oUy?pmRCw$2$}U,[4W_JjCHVtAn%jmDqosxT;XPPf' );
+define( 'SECURE_AUTH_SALT', 'B!KPv$C7G#o^%~=50n;f-wzRx=GV}&!@S_P(Lgvjv:~SHgmm*Lq%yy$B/$+hR]Q3' );
+define( 'LOGGED_IN_SALT',   '5uhRK-DFe?M4[O^g@&(I<)T@W`3Ir?y [zy%UT,-,:l]Ba?kxS~<qK/Un[m4Z~gq' );
+define( 'NONCE_SALT',       'aIh K)o7)DK._)go7jo>:6HR*P]+8A2[2rdd6w^08FXKF,z4})-&;7o56!2)ei#W' );
 
 /**#@-*/
 
